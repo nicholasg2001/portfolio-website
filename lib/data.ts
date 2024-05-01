@@ -87,7 +87,7 @@ export const projectsData = [
     title: "LangBot",
     description:
       "A discord bot that leverages multiple language related APIs for commands pertaining to language translation, dictionary functions, and thesaurus functions.",
-    tags: ["JavaScript", "Node.js", "Heroku"],
+    tags: ["JavaScript", "Node.js", "Docker", "Heroku"],
     imageUrl: Discord,
   },
 ] as const;
@@ -95,6 +95,7 @@ export const projectsData = [
 export const skillsData = [
   "CSS",
   "Express",
+  "Docker",
   "Firebase",
   "Git",
   "Google Cloud Platform",
