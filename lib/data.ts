@@ -1,10 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import BeeEnrolled from "@/public/BeeEnrolled.png"
+import QuickPrompts from "@/public/QuickPrompts.png";
+import AIPDF from "@/public/AIPDF.png"
+import Discord from "@/public/discord.png"
 
 export const links = [
   {
@@ -35,73 +36,83 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "B.S. Computer Science",
+    location: "Farmingdale State College",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Coursework: Object-Oriented Programming, Software Engineering, AI & Machine Learning, Data Structures & Algorithms",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020-2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Co-Technical Lead",
+    location: "Google Student Developer Club",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Assisted in the creation and preparation of technical workshops and student events.",
+    icon: React.createElement(FaGoogle),
+    date: "Sep 2023 - Present",
+  },
+  {
+    title: "Software Engineer Intern",
+    location: "Remote",
+    description:
+      "Actively working on developing an E-Learning provider equipped with powerful AI tools for teachers and tutors to leverage to augment their workflow.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Feb 2024 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "BeeEnrolled",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I'm currently interning as a full-stack developer working on building an E-learning platform with powerful AI tools for teachers and tutors.",
+    tags: ["Vue", "Tailwind", "Laravel", "PHP", "MySQL", "OpenAI", "daisyUI", "Figma"],
+    imageUrl: BeeEnrolled,
   },
   {
-    title: "rmtDev",
+    title: "AI PDF Analyzer",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A public web app that analyzes user submitted PDFs via the RAG technique and cosine similarity. This is still an active work in progress.",
+    tags: ["Next.js", "TypeScript", "PostgreSQL", "Drizzle ORM", "Pinecone", "OpenAI"],
+    imageUrl: AIPDF,
   },
   {
-    title: "Word Analytics",
+    title: "QuickPrompts",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A public web app for AI prompt sharing. Has full CRUD functionality and a search feature including search by content and tag.",
+    tags: ["React", "JavaScript", "Next.js", "Tailwind", "MongoDB"],
+    imageUrl: QuickPrompts,
+  },
+  {
+    title: "LangBot",
+    description:
+      "A discord bot that leverages multiple language related APIs for commands pertaining to language translation, dictionary functions, and thesaurus functions.",
+    tags: ["JavaScript", "Node.js", "Heroku"],
+    imageUrl: Discord,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
   "CSS",
+  "Express",
+  "Firebase",
+  "Git",
+  "Google Cloud Platform",
+  "HTML",
+  "Java",
   "JavaScript",
-  "TypeScript",
-  "React",
+  "Jetpack Compose",
+  "Kotlin",
+  "MongoDB",
+  "MySQL",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "React",
+  "Redux",
+  "Tailwind",
+  "TypeScript",
+  "Vue.js",
 ] as const;
+
