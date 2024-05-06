@@ -90,6 +90,13 @@ export const projectsData = [
     tags: ["JavaScript", "Node.js", "Docker", "Heroku"],
     imageUrl: Discord,
   },
+  {
+    title: "MP3 Player",
+    description:
+      "A multithreaded JavaFX desktop GUI application that allows users full media controls with their MP3 files, store playlist metadata to a JSON file, and more."
+    tags:["Java", "SQL", "Multithreading"],
+    imageUrl: 
+  }
 ] as const;
 
 export const skillsData = [
