@@ -72,14 +72,14 @@ export const projectsData = [
   {
     title: "AI PDF Analyzer",
     description:
-      "A public web app that analyzes user submitted PDFs via the RAG technique and cosine similarity. This is still an active work in progress.",
+      "A web app that analyzes user submitted PDFs via the RAG technique and vector similarity.",
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Drizzle ORM", "Pinecone", "OpenAI"],
     imageUrl: AIPDF,
   },
   {
     title: "QuickPrompts",
     description:
-      "A public web app for AI prompt sharing. Has full CRUD functionality and a search feature including search by content and tag.",
+      "A web app for AI prompt sharing. Has full CRUD functionality and a search feature including search by content and tag.",
     tags: ["React", "JavaScript", "Next.js", "Tailwind", "MongoDB"],
     imageUrl: QuickPrompts,
   },
