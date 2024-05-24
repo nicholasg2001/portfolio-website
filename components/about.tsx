@@ -19,9 +19,9 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I'm currently a senior at Farmingdale State College studying{" "}
-        <span className="font-medium">Computer Science</span>. I am currently interning at an E-Learning provider startup company called BeeEnrolled. During my time
-        there I have been focused on full stack development using technologies such as Laravel, Vue, and MySQL.
+        I've recently graduated with a B.S. in computer science from Farmingdale State College.
+        I am currently interning at an E-Learning provider startup company called BeeEnrolled. During my time
+        there I have been focused on full stack web development using technologies such as Laravel, Vue, and MySQL.
       </p>
 
       <p>
