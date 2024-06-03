@@ -49,7 +49,7 @@ export const experiencesData = [
     description:
       "Assisted in the creation and preparation of technical workshops and student events.",
     icon: React.createElement(FaGoogle),
-    date: "Sep 2023 - Present",
+    date: "Sep 2023 - May 2024",
   },
   {
     title: "Software Engineer Intern",
