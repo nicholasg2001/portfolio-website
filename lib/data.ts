@@ -1,11 +1,12 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaGoogle } from "react-icons/fa";
+import { FaCertificate, FaGoogle } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import BeeEnrolled from "@/public/BeeEnrolled.png"
 import QuickPrompts from "@/public/QuickPrompts.png";
 import AIPDF from "@/public/AIPDF.png"
 import Discord from "@/public/discord.png"
+import Oyster from "@/public/Oyster.png"
 
 export const links = [
   {
@@ -45,7 +46,7 @@ export const experiencesData = [
   },
   {
     title: "Co-Technical Lead",
-    location: "Google Student Developer Club",
+    location: "Google Student Developer Club, FSC",
     description:
       "Assisted in the creation and preparation of technical workshops and student events.",
     icon: React.createElement(FaGoogle),
@@ -59,6 +60,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "Feb 2024 - Present",
   },
+  {
+    title: "CodePath TIP102 Student",
+    location: "Remote",
+    description:
+      "Intermediate technical interview prep course. Focused on applying data structures and algorithms to solving technical interview problems.",
+    icon: React.createElement(FaCertificate),
+    date: "Jun 2024 - Aug 2024"
+  }
 ] as const;
 
 export const projectsData = [
@@ -68,6 +77,12 @@ export const projectsData = [
       "I'm currently interning as a full-stack developer working on building an E-learning platform with powerful AI tools for teachers and tutors.",
     tags: ["Vue", "Tailwind", "Laravel", "PHP", "MySQL", "OpenAI", "daisyUI", "Figma"],
     imageUrl: BeeEnrolled,
+  },
+  {
+    title: "Oyster",
+    description: "The open-source software that powers the ColorStack community experience.",
+    tags: ["TypeScript", "PostgreSQL", "Kysely", "Zod", "Remix"],
+    imageUrl: Oyster
   },
   {
     title: "AI PDF Analyzer",
@@ -93,26 +108,23 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "CSS",
-  "Express",
+  "Angular",
+  "C#",
   "Docker",
-  "Firebase",
   "Git",
-  "Google Cloud Platform",
-  "HTML",
+  "HTML/CSS",
   "Java",
-  "JavaScript",
-  "Jetpack Compose",
   "Kotlin",
-  "MongoDB",
-  "MySQL",
+  "Laravel",
   "Next.js",
   "Node.js",
-  "PostgreSQL",
+  "NoSQL",
+  "PHP",
   "Python",
+  "Postman",
   "React",
   "Redux",
-  "Tailwind",
+  "SQL",
   "TypeScript",
   "Vue.js",
 ] as const;
