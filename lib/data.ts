@@ -39,7 +39,7 @@ export const experiencesData = [
     title: "B.S. Computer Science",
     location: "Farmingdale State College",
     description:
-      "Coursework: Object-Oriented Programming, Software Engineering, AI & Machine Learning, Data Structures & Algorithms",
+      "Coursework: Object-Oriented Progsramming, Software Engineering, AI & Machine Learning, Data Structures & Algorithms",
     icon: React.createElement(LuGraduationCap),
     date: "2020-2024",
   },
@@ -55,10 +55,18 @@ export const experiencesData = [
     title: "Software Engineer Intern",
     location: "Remote",
     description:
-      "Actively working on developing an E-Learning provider equipped with powerful AI tools for teachers and tutors to leverage to augment their workflow.",
+      "Developed an E-Learning provider equipped with powerful AI tools for teachers and tutors to leverage to augment their workflow.",
     icon: React.createElement(CgWorkAlt),
-    date: "Feb 2024 - Present",
+    date: "Feb 2024 - Sep 2024",
   },
+  {
+    title: "Software Engineer",
+    location: "Fairfield, NJ",
+    description:
+      "Integrations team",
+    icon: React.createElement(CgWorkAlt),
+    date: "Oct 2024 - Present"
+  }
 ] as const;
 
 export const projectsData = [
