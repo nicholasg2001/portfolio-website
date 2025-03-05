@@ -58,7 +58,7 @@ export const experiencesData = [
     description:
       "Actively working on developing an E-Learning provider equipped with powerful AI tools for teachers and tutors to leverage to augment their workflow.",
     icon: React.createElement(CgWorkAlt),
-    date: "Feb 2024 - Present",
+    date: "Feb 2024 - Sep 2024",
   },
   {
     title: "CodePath TIP102 Student",
@@ -67,6 +67,14 @@ export const experiencesData = [
       "Intermediate technical interview prep course. Focused on applying data structures and algorithms to solving technical interview problems.",
     icon: React.createElement(FaCertificate),
     date: "Jun 2024 - Aug 2024"
+  },
+  {
+    title: "Software Engineer",
+    location: "Fairfield, NJ",
+    description:
+      "Integrations Team",
+    icon: React.createElement(CgWorkAlt),
+    date: "Oct 2024 - Present"
   }
 ] as const;
 
