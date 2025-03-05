@@ -82,7 +82,7 @@ export const projectsData = [
   {
     title: "BeeEnrolled",
     description:
-      "I'm currently interning as a full-stack developer working on building an E-learning platform with powerful AI tools for teachers and tutors.",
+      "Interned as a full-stack developer working on building an E-learning platform with powerful AI tools for teachers and tutors.",
     tags: ["Vue", "Tailwind", "Laravel", "PHP", "MySQL", "OpenAI", "daisyUI", "Figma"],
     imageUrl: BeeEnrolled,
   },
