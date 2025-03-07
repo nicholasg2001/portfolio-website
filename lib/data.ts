@@ -56,7 +56,7 @@ export const experiencesData = [
     title: "Software Engineer Intern",
     location: "Remote",
     description:
-      "Actively working on developing an E-Learning provider equipped with powerful AI tools for teachers and tutors to leverage to augment their workflow.",
+      "Developed an E-Learning provider equipped with powerful AI tools for teachers and tutors to leverage to augment their workflow.",
     icon: React.createElement(CgWorkAlt),
     date: "Feb 2024 - Sep 2024",
   },
