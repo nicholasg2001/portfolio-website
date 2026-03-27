@@ -19,12 +19,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am currently working as a Forward Deployed Software Engineer at DMW&H on the Integrations team! I'm at my best
+        I’m a Forward Deployed Software Engineer at DMW&H, focused on taking complex warehouse systems from concept to production—integrating services, aligning with real workflows, and making sure everything works under real-world conditions.”
       </p>
-
       <p>
-        When I'm not coding, I enjoy attending electronic music events, going to the gym, and learning about military history. I'm also a huge
-        foodie and love to take advantage of my close proximity to NYC to try out different cultural cuisines.
+        When I’m not coding, I’m usually at electronic music events, in the gym, or going down a rabbit hole on military history. I’m also a big foodie and take full advantage of being in NYC to explore different cuisines.
       </p>
     </motion.section>
   );
