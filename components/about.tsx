@@ -19,8 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I've recently graduated with a B.S. in computer science from Farmingdale State College.
-        I am currently working as a Software Engineer at DMW&H on the Integrations team!
+        I am currently working as a Forward Deployed Software Engineer at DMW&H on the Integrations team! I'm at my best
       </p>
 
       <p>
