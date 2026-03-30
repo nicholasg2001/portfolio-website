@@ -19,10 +19,9 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I’m a Forward Deployed Software Engineer at DMW&H, focused on taking complex warehouse systems from concept to production—integrating services, aligning with real workflows, and making sure everything works under real-world conditions.”
-      </p>
+      I build and deploy WCS and WMS systems. At DMW&H, that means working hands-on with customers, translating messy operational workflows into reliable software, and owning the system all the way through integration and go-live.      </p>
       <p>
-        When I’m not coding, I’m usually at electronic music events, in the gym, or going down a rabbit hole on military history. I’m also a big foodie and take full advantage of being in NYC to explore different cuisines.
+        When I’m not coding, I’m usually at live music events, in the gym, or going down a rabbit hole on Youtube about anything really. I’m also a big foodie and take full advantage of being in NYC to explore different cuisines.
       </p>
     </motion.section>
   );
