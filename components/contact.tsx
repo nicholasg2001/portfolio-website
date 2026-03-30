@@ -53,6 +53,14 @@ export default function Contact() {
         }}
       >
         <input
+          className="absolute w-0 h-0 overflow-hidden opacity-0 pointer-events-none"
+          name="_gotcha"
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+        />
+        <input
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white/80 dark:focus:bg-white transition-all dark:outline-none"
           name="senderEmail"
           type="email"

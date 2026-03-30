@@ -4,6 +4,7 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import ConveyorBelt from "./conveyor-belt";
 
 export default function About() {
   const { ref } = useSectionInView("About");
@@ -23,6 +24,7 @@ export default function About() {
       <p>
         When I’m not coding, I’m usually at live music events, in the gym, or going down a rabbit hole on Youtube about anything really. I’m also a big foodie and take full advantage of being in NYC to explore different cuisines.
       </p>
+      <ConveyorBelt />
     </motion.section>
   );
 }
