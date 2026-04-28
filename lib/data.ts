@@ -69,10 +69,10 @@ export const experiencesData = [
     date: "Jun 2024 - Aug 2024"
   },
   {
-    title: "Forward Deployed Software Engineer",
+    title: "Software Engineer",
     location: "Fairfield, NJ",
     description:
-      "Sitting at the intersection of Product, Dev, and Sales. I work directly with customers on site to develop, test, and deploy WCS systems.",
+      "Sitting at the intersection of Product and Dev. On top of traditional development work, I work directly with customers on site to develop, test, and deploy WCS systems.",
     icon: React.createElement(CgWorkAlt),
     date: "Oct 2024 - Present"
   }
